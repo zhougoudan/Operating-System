@@ -4,6 +4,8 @@
 
 受Linux系统启发,这个操作系统也可以通过一个shell来体现自己的存在
 
+头文件可以通过xv6公开源码获得
+
 ## 此操作系统的功能
 ### 1 执行简单的命令
 
@@ -37,3 +39,8 @@ ls | head -3 | tail -1
 ls | head -3 | tail -1 > myoutput
 ~~~
 3. 实现“;”操作符，这个操作符可以顺序执行shell命令列表
+
+
+## po一个当时运行截图
+![20421634755086_ pic](https://user-images.githubusercontent.com/63355034/139286891-88d69c68-156c-49e0-a4cf-61711213e210.jpg)
+
